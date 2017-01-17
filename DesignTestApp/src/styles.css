@@ -11,6 +11,19 @@ header{
     z-index: 1;
 }
 
+header .logo{
+    height: 100%;
+}
+
+header .highligt-text{
+    font-weight: bold;
+    color: white;
+}
+
+.spacer{
+    flex: 1 1 auto;
+}
+
 nav {
     box-shadow: 0 6px 4px -5px rgba(0,0,0,.2), 0 2px 3px 1px rgba(0,0,0,.14), 0 2px 10px 1px rgba(0,0,0,.12);
     position: relative;
@@ -23,11 +36,34 @@ md-nav-list{
 }
 
 .content{
-    padding: 8px;
+    padding-bottom: 8px;
 }
+
+/*-----------EVENTS-----------*/
 
 .event-card{
     width: 250px;
-    margin: 8px 4px 0 4px;
+    margin: 8px 0 0 8px;
     float: left;
+}
+
+.event-card-content{
+    height: 50px;
+    overflow: hidden;
+}
+
+.event-card-photo{
+    height: 200px
+}
+
+/*-----------LECTURES-----------*/
+
+.lecture-card{
+    margin: 4px 0 4px 8px;
+}
+
+/*-----------TABS-----------*/
+
+.tab-content{
+    padding-bottom: 8px;
 }
